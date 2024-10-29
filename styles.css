@@ -50,9 +50,21 @@ ol{
     list-style-type:lower-roman;
 }
 img{
-    width:40%;
-    height:40%;
+    width:30%;
+    height:30%;
 }
 .special{
     font-style:italic;
+}
+.button{
+    cursor:pointer;
+    color: cornflowerblue;
+    background-color:aliceblue;
+    border: 2.5px dotted cornflowerblue;
+    outline: 3px dashed aliceblue;
+    border-radius: 15px;
+    padding:15px 20px;
+}
+.button:hover{
+    padding: 15px 30px;
 }
