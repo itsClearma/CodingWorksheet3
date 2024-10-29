@@ -1,11 +1,24 @@
 body{
     background-image:linear-gradient(to bottom right, aliceblue, cornflowerblue);
+    text-align: center;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: Verdana;
     color: darkslateblue;
-    text-align: center;
     font-weight: bold;
+}
+h1{
+    background-color:aliceblue;
+    border: 2.5px dotted cornflowerblue;
+    outline: 3px dashed aliceblue;
+    border-radius: 20px 50px;
+}
+h5{
+    font-style:oblique;
+    font-size:medium;
+}
+h6{
+    font-size:large;
 }
 p{
     font-family: Verdana;
@@ -16,4 +29,30 @@ p{
 strong{
     font-size:large;
     font-family: 'lucida console';
+    text-emphasis-style:double-circle;
+    text-emphasis-color:cornflowerblue;
+    text-emphasis-position: under;
+}
+ul{
+    text-align:left;
+    background-color: aliceblue;
+    margin-left:40%;
+    width: 20%;
+    padding: 1%;
+    list-style-type:circle;
+}
+ol{
+    text-align:right;
+    background-color: aliceblue;
+    margin-left:40%;
+    width: 20%;
+    padding:1%;
+    list-style-type:lower-roman;
+}
+img{
+    width:40%;
+    height:40%;
+}
+.special{
+    font-style:italic;
 }
