@@ -1,0 +1,19 @@
+body{
+    background-image:linear-gradient(to bottom right, aliceblue, cornflowerblue);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Verdana;
+    color: darkslateblue;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    font-family: Verdana;
+    color: royalblue;
+    text-align: center;
+    font-weight: bold;
+}
+strong{
+    font-size:large;
+    font-family: 'lucida console';
+}
