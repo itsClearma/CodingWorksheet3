@@ -1,6 +1,7 @@
 body{
     background-image:linear-gradient(to bottom right, aliceblue, cornflowerblue);
     text-align: center;
+    background-color:cornflowerblue;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: Verdana;
@@ -70,6 +71,28 @@ img{
 }
 
 /* stick people */
-.stick-people{
-    color:powderblue;
+.peopleBG{
+    background-image:linear-gradient(to bottom right, cornflowerblue, aliceblue);
+}
+.peopleItem{
+    color:cornflowerblue;
+    background-color:aliceblue;
+    border-radius: 40px;
+    width:30%;
+    height:30%;
+}
+.container{
+    /*display:flex;
+    flex-wrap:wrap;*/
+    padding: 10px;
+}
+.section1{
+    background-color:brown;
+}
+.section2{
+    background-color:blueviolet;
+}
+.people{
+    background-color:white;
+    padding: 5px;
 }
