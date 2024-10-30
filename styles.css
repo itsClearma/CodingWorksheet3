@@ -68,3 +68,8 @@ img{
 .button:hover{
     padding: 15px 30px;
 }
+
+/* stick people */
+.stick-people{
+    color:powderblue;
+}
