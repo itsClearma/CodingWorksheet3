@@ -17,7 +17,11 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow bold', sans-serif;
     color: white;
     font-style: italic;
-    font-size: 150px;
+    font-size: 125px;
+    transition-duration:2s;
+}
+h1:hover{
+    text-shadow: -10px 10px black;
 }
 h2{
     color: black;
@@ -59,13 +63,15 @@ a{
     font-weight: bold;
 }
 .section-one{
-    border: 1px solid white;
+    border: 5px solid purple;
     background-color: darkslateblue;
+    background-image: linear-gradient(purple, violet);
 }
 .caption{
     font-size: 15px;
     font-style: italic;
     text-align: center;
+    color: darkorchid;
 }
 .container{
     display: flex;
@@ -73,12 +79,23 @@ a{
     flex-wrap: wrap;
 }
 .cake-item{
-    border: 1px dashed yellow;
+    border: 5px solid white;
     width: 275px;
     height: 275px;
     padding: 4px;
 }
 .cake-group{
-    border: 2px solid green;
-    width: 284px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    width: 294px;
+}
+
+.button{
+    padding: 15px;
+    background-color: azure;
+    color: navy;
+    border: none;
+    border-radius: 10px;
+    text-decoration:none;
+    font-size: 25px;
 }
